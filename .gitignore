@@ -3,3 +3,4 @@ widgets/__pycache__
 rocketables/__pycache__
 RocketUI.egg-info
 dist
+docs   # not prefer pushing docs
