@@ -1,0 +1,31 @@
+[project]
+name = "RocketUI"
+version = "0.1.0"
+description = "A custom Python UI framework"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "NEOAPPS", email = "asd22.info@gmail.com" }
+]
+dependencies = [
+    "PyQt6"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "mypy"
+]
+
+[tool.setuptools]
+packages = ["rocketables", "widgets"]
+
+[tool.setuptools.package-dir]
+"" = "."
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
