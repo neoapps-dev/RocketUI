@@ -103,9 +103,9 @@ class Test(Rocketable):
 ## 📚 Documentation
 
 (WIP. undocumented but still shows API. gonna be hosted in the future)
-1. Clone the repo
+1. Clone the repo and `cd` into it.
 2. Run the command: `chmod +x generate-docs.sh && ./generate-docs.sh`
-3. Run the command: `python3 -m http.server 8000`
+3. Run the command: `python3 -m http.server 8000 -d docs`
 4. Visit the documentation at `http://localhost:8000`
 
 ## 🤝 Contributing
