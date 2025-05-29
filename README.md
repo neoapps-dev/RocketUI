@@ -1,6 +1,6 @@
 # 🚀 RocketUI
 
-**RocketUI** is a minimalistic, declarative UI framework designed for building reactive Python apps with a clean and intuitive API.
+**RocketUI** is a minimalistic, declarative UI framework designed for building reactive Python apps with a clean and intuitive API. based on Qt6
 
 ## ✨ Features
 
