@@ -12,7 +12,10 @@ class Row:
             children = [children]
 
         for child in children:
-            widget = child.render()
+            try:
+                widget = child.render()
+            except Exception as e:
+                widget = child
             self.layout.addWidget(widget)
             if hasattr(child, "update"):
                 self.layout.setStretchFactor(widget, 0)
