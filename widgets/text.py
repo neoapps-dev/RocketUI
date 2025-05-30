@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import QLabel
+from PySide6.QtWidgets import QLabel
 from rocketui.enums import TextSize
 
 class Text:

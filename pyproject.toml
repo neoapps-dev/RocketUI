@@ -1,7 +1,7 @@
 [project]
 name = "RocketUI"
 version = "0.1.0"
-description = "A custom Python UI framework"
+description = "A fast Qt6-based reactive UI framework for Python"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
@@ -9,7 +9,7 @@ authors = [
     { name = "NEOAPPS", email = "asd22.info@gmail.com" }
 ]
 dependencies = [
-    "PyQt6"
+    "PySide6"
 ]
 
 [project.optional-dependencies]

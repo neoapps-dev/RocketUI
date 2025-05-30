@@ -9,6 +9,7 @@
 * 🧱 Built-in widgets (Text, Button, TextInput, etc.)
 * 🧪 Custom components via `Rocketables`
 * 💡 Simple and readable syntax
+* 🔥 Support for PySide6 Qt widgets
 
 ## 📦 Installation
 
