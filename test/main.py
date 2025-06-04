@@ -6,6 +6,7 @@ from rocketui.widgets.textinput import TextInput
 from rocketui.enums import TextSize
 from rocketui.state import State
 from rocketui.rocketables.test import Test
+import ast
 
 class MyApp:
     def rocketize(self):
@@ -23,7 +24,10 @@ class MyApp:
 
     def evalcode(self):
         try:
-            self.result.set(eval(self.input.get_value()))
+            # Use ast.literal_eval for safer evaluation of expressions
+            # This only evaluates literals like strings, numbers, tuples, lists, dicts, etc.
+            # and prevents execution of arbitrary code
+            self.result.set(ast.literal_eval(self.input.get_value()))
         except Exception as e:
             self.result.set(e)
 
